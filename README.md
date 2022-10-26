@@ -1,19 +1,16 @@
-# DTS REA4 Final Project
+# DTS REA4C-06-Final Project
 
-Ketentuan lengkap bisa dilihat di [Final Project Guidelines](https://docs.google.com/document/d/122KyWNQ4xxU4aFwWbM4vIfH7LM4AH2CZEZa3YsEHjCk). 
+Link [Live App](https://dts4c-06-final.vercel.app/). 
 
-## Daftar pair
+## Video Dokumentasi
+![](http://i.imgur.com/OUkLi.gif)
 
-Tugas dikerjakan secara berpasangan, untuk daftar kelompok bisa dilihat pada masing-masing Classroom atau Discord Class.
+## Penjelasan
 
-## Fork and Clone
+- Register terlebih dahulu menggunakan email yang valid
+- Verifikasi email (jika tidak terdapat pada kotak masuk silahkan cek folder spam)
+- Login menggunakan email yang sudah terverifikasi
+- Jika berhasil login terdapat daftar berita
+- Klik selengkapnya jika ingin melihat detail berita
 
-Mohon perwakilan dari pair bisa melakukan fork repo ini dan clone, untuk repositori yang di fork menggunakan penamaan:
-
-`dts4[a/b/c]-[nomor pair]-final`
-
-Contoh: `dts4a-01-final`
-
-## Branching, commit
-
-Branch dapat sesuai dengan kebutuhan dan kesepakatan bersama dalam pair, namun hasil akhirnya harus di merge ke branch `main` dan di push ke Github. Pastikan hasil akhir kode sudah ter-push!
+## Terima Kasih
