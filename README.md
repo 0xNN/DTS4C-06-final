@@ -6,7 +6,7 @@
 Link [Live App](https://dts4c-06-final.vercel.app/). 
 
 ## Video Dokumentasi
-![](http://i.imgur.com/OUkLi.gif)
+![](https://drive.google.com/file/d/1gX5F7U822LP6NrJxyU7Akz76Lx44eh5T/view?usp=sharing)
 
 ## Penjelasan
 
