@@ -1,4 +1,7 @@
 # DTS REA4C-06-Final Project
+## Author
+- Muhammad Sendi Noviansyah
+- Riadi Amdar Yandi
 
 Link [Live App](https://dts4c-06-final.vercel.app/). 
 
