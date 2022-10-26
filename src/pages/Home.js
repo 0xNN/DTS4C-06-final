@@ -38,6 +38,7 @@ const Home = () => {
   const [collapsed, setCollapsed] = useState(false);
   const [topNews, setTopNews] = useState([]);
   const [newAll, setNewAll] = useState([]);
+  const [detail, setDetail] = useState([]);
   const { Header, Content, Footer, Sider } = Layout;
   const { Title } = Typography;
   const { Meta } = Card;
@@ -54,6 +55,24 @@ const Home = () => {
     .then((response) => {
       const data = response.data.data;
       setNewAll(data);
+    })
+    .catch((error) => {
+      console.log(error);
+    })
+  }
+
+  const getDetailNews = async (uuid) => {
+    await axios.get(`${URL}news/uuid/${uuid}`, {
+      params: {
+        api_token: process.env.REACT_APP_TOKEN_NEWS,
+        locale: 'id',
+        language: 'id',
+        limit: '16',
+      }
+    })
+    .then((response) => {
+      const data = response.data;
+      setDetail(data);
     })
     .catch((error) => {
       console.log(error);
@@ -201,13 +220,23 @@ const Home = () => {
                     >
                       <Meta title={item.title} description={
                         <p>
-                          {item.description} <a style={{ fontWeight: 'bold' }} href={item.url} target="_blank" rel="noreferrer">Selengkapnya</a>
+                          {item.description} <a style={{ fontWeight: 'bold' }} onClick={e => getDetailNews(item.uuid)}>Selengkapnya</a>
                         </p>
                       } />
                     </Card>
                   </Col>
                 ))}
               </Row>
+            </div>
+          </Card>
+          <br />
+          <Card>
+            <div className="layout-content">
+              <Title level={4}>Detail News</Title>
+              <img src={detail?.image_url} alt="detail" />
+              <h1>
+                {detail.description}
+              </h1>
             </div>
           </Card>
           <Content>
