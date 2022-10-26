@@ -6,7 +6,7 @@
 Link [Live App](https://dts4c-06-final.vercel.app/). 
 
 ## Video Dokumentasi
-![](https://media.giphy.com/media/jg6SvVfZjeAyHUSMul/giphy.gif)
+![](https://sippda.my.id/assets_file/Dokumentasi.gif)
 
 ## Penjelasan
 
